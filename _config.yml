@@ -1,7 +1,7 @@
 title: The Blog of Matt Mitchell
 author: Matt Mitchell
 description: A haphazard collection of thoughts, writings, and projects.
-theme: jekyll-whiteglass
+remote-theme: yous/whiteglass
 
 permalink: /:year/:month/:day/:title/
 paginate_path: /posts/:num/
