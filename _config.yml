@@ -1,1 +1,25 @@
-theme: jekyll-theme-slate
+title: The Blog of Matt Mitchell
+author: Matt Mitchell
+description: A haphazard collection of thoughts, writings, and projects.
+theme: jekyll-whiteglass
+
+permalink: /:year/:month/:day/:title/
+paginate_path: /posts/:num/
+paginate: 5
+
+#jekyll-archives:
+#  enabled:
+#    - categories
+#    - tags
+#  layout: category_archives
+#  permalinks:
+#    category: /categories/:name/
+#    tag: /tags/:name/
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "Matt Mitchell"
