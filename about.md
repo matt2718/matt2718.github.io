@@ -4,13 +4,11 @@ title: "About"
 permalink: /about/
 ---
 
-Hi, I'm Matt. I'm an undergrad physics student at CU Boulder. My current research focuses on plasma
-simulation algorithms, and my hobbies range from playing quizbowl to reading to programming to
-baking to playing guitar terribly.
+I'm a physics PhD student at Yale. Before coming here, I did my undergrad at CU Boulder, and before
+that, I lived in Boise.
 
-### My papers:
+My interests skew towards physics, but also encompass a wide variety of academic and non-academic
+topics (or so I tell myself).
 
-[Efficient Fourier Space Particle Simulation](https://arxiv.org/abs/1808.03742) (submitted for
-  publication)
-
+[My CV](/uploads/mitchell-cv.pdf)
 
