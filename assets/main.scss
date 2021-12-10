@@ -5,17 +5,18 @@
 
 // Our variables
 //$base-font-family: Bitter, "Apple SD Gothic Neo", AppleGothic, NanumBarunGothic, "Malgun Gothic", Dotum, sans-serif;
-$base-font-family: Georgia, serif;
+$base-font-family: Spectral, Georgia, serif;
 $monospace-font-family: Monaco, Menlo, Consolas, "Courier New", DotumChe, monospace;
-$base-font-size:   18px;
+$sans-font-family: "Source Sans Pro", Verdana, sans-serif;
+$base-font-size:   19px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.5;
+$base-line-height: 1.6;
 
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #fdfdfd;
+$background-color: #f8f8f8;
 $brand-color:      #2568ba;
 
 $grey-color:       #828282;
@@ -23,12 +24,12 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Width of the content area
-$content-width:    800px;
+$content-width:    900px;
 
 $on-palm:          600px;
 $on-laptop:        800px;
 
-$header-text-color: #fdfdfd;
+$header-text-color: #fff;
 $header-color:      #111;
 
 $border-bg-color:   #666;
@@ -53,11 +54,14 @@ $border-bg-color:   #666;
 @import "whiteglass";
 
 .site-header {
+    font-family: $sans-font-family;
     background-color: $header-color;
+    font-weight: 600;
 }
 
 .site-title {
-//    font-weight: bold;
+    font-family: $sans-font-family;
+    font-weight: 600;
     &,
     &:visited,
     &:hover {
@@ -70,6 +74,11 @@ $border-bg-color:   #666;
   .page-link {
       color: $header-text-color;
   }
+}
+
+.post-title {
+    font-family: $sans-font-family;
+    font-weight: 600;
 }
 
 .page-content {
@@ -86,6 +95,7 @@ $border-bg-color:   #666;
 .page-heading {
     @extend .post-title;
 }
+
 /*
 .page-content {
     background-color: $border-bg-color;

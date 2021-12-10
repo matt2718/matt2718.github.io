@@ -1,6 +1,6 @@
-title: The Blog of Matt Mitchell
+title: Matt Mitchell's blog
 author: Matt Mitchell
-description: A haphazard collection of thoughts, writings, and projects.
+description: A collection of thoughts on different things
 remote-theme: yous/whiteglass
 
 permalink: /:year/:month/:day/:title/
