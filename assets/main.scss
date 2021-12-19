@@ -16,10 +16,10 @@ $base-line-height: 1.6;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #f8f8f8;
+$background-color: #fdfdfd;
 $brand-color:      #2568ba;
 
-$grey-color:       #828282;
+$grey-color:       #777;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -96,12 +96,46 @@ $border-bg-color:   #666;
     @extend .post-title;
 }
 
-/*
-.page-content {
-    background-color: $border-bg-color;
-    .wrapper {
-	background-color: $background-color;
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1 {
+    font-weight: 500;
+    font-size: 38px;
+
+    @include media-query($on-laptop) {
+      font-size: 34px;
     }
+  }
+
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+
+    @include media-query($on-laptop) {
+      font-size: 26px;
+    }
+  }
+
+  h3 {
+    font-weight: 500;
+    font-size: 22px;
+
+    @include media-query($on-laptop) {
+      font-size: 20px;
+    }
+  }
+
+  h4 {
+    font-size: 20px;
+
+    @include media-query($on-laptop) {
+      font-size: 18px;
+    }
+  }
 }
 
-*/
+blockquote {
+  font-size: 19px;
+  letter-spacing: -0.5px;
+}
