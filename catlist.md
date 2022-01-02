@@ -2,8 +2,8 @@
 title: "List of Post Categories"
 layout: page
 ---
-
-{% for cat in site.categories %}
+{% assign sorted_cats = site.categories | sort %}
+{% for cat in sorted_cats %}
 
 {% capture catname %}{{ cat | first }}{% endcapture %}
 
