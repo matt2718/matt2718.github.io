@@ -11,7 +11,7 @@ $sans-font-family: "Source Sans Pro", Verdana, sans-serif;
 $base-font-size:   19px;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
-$base-line-height: 1.6;
+$base-line-height: 1.5;
 
 $spacing-unit:     30px;
 
@@ -99,6 +99,11 @@ $border-bg-color:   #666;
 .post-content {
   margin-bottom: $spacing-unit;
 
+  hr {
+      height: 2px;
+      margin: 10px 0;
+  }
+  
   h1 {
     font-weight: 500;
     font-size: 38px;
