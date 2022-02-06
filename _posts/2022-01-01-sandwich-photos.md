@@ -39,8 +39,9 @@ caring about negative reviews should compel people to reject "let people enjoy t
 Well, here's the thing: I think Randall's point is basically valid. If I spent even a week staring
 at photos of Joe Biden eating a sandwich, *of course* I'd notice things about them and start to
 develop opinions. And the thought process I use to figure out why I like something is similar for
-wine, fonts, art---anything subjective, really. It's all just drawing boundaries in a large
-parameter space.
+wine, fonts, landscapes---anything subjective, really. It's all just drawing boundaries in a large
+parameter space (though it's a bit less true for art, which is made with the goal of communicating
+something).
 
 This leaves us at an impasse. Either we can admit that caring about details is pointless and stick
 to surface-level impressions, or we can twist ourselves into ad hoc rhetorical knots to justify why
