@@ -115,7 +115,7 @@ $border-bg-color:   #666;
 
   h2 {
     font-weight: 500;
-    font-size: 28px;
+    font-size: 30px;
 
     @include media-query($on-laptop) {
       font-size: 26px;
@@ -123,7 +123,7 @@ $border-bg-color:   #666;
   }
 
   h3 {
-    font-weight: 500;
+    font-weight: 600;
     font-size: 22px;
 
     @include media-query($on-laptop) {
@@ -132,12 +132,35 @@ $border-bg-color:   #666;
   }
 
   h4 {
+    font-weight: 600;
     font-size: 20px;
 
     @include media-query($on-laptop) {
       font-size: 18px;
     }
   }
+  h1, h2, h3, h4, h5, h6,
+  p, blockquote, pre,
+  ul, ol, dl, figure,
+  %vertical-rhythm {
+      margin-bottom: $spacing-unit*0.75;
+  }
+
+
+  a {
+  color: $brand-color;
+  text-decoration: underline;
+
+  &:visited {
+    color: darken($brand-color, 10%);
+  }
+
+  &:hover {
+    color: $text-color;
+    text-decoration: underline;
+  }
+}
+
 }
 
 blockquote {
