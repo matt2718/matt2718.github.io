@@ -12,3 +12,4 @@ topics (or so I tell myself).
 
 [My CV](/uploads/mitchell-cv.pdf)
 
+You can email me at matthew dot mitchell at yale dot edu
