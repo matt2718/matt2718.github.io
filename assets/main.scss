@@ -104,8 +104,8 @@ $border-bg-color:   #666;
 }
 
 .post-content {
-  margin-bottom: $spacing-unit;
-
+  // margin-bottom: $spacing-unit;
+  margin-bottom: 40px;
   img {
       display: block;
       margin-left: auto;
@@ -175,6 +175,12 @@ $border-bg-color:   #666;
   }
 }
 
+}
+
+.post-meta-footer {
+  font-size: $small-font-size;
+  color: $grey-color;
+  margin-bottom: 0px;
 }
 
 blockquote {

@@ -1,11 +1,11 @@
-{% if include.categories != empty %} •
+{% if include.categories != empty %}
   {% for category in include.categories %}
     {% assign no_comma = forloop.last %}
     <a href="/categories/{{category}}">{{category}}</a>{% unless no_comma %},{% endunless %}
   {% endfor %}
 {% endif %}
 
-{% if include.tags != empty %} •
+{% if include.tags != empty %}
     {% for tag in include.tags %}
     {% assign no_comma = forloop.last %}
     <a href="/tags/{{tag}}">{{tag}}</a>{% unless no_comma %},{% endunless %}
