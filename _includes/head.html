@@ -46,6 +46,12 @@
     {% elsif site.facebook_image %}
       <meta property="og:image" content="{{ site.facebook_image }}">
     {% endif %}
+  {% else %}
+    <meta property="og:title" content="{{ title }}">
+    <meta property="og:site_name" content="{{ site.title | escape }}">
+    <meta property="og:url" content="{{ canonical }}">
+    <meta property="og:description" content="{{ description }}">
+    <meta property="og:image" content="/assets/icons/android-chrome-512x512.png">
   {% endif %}
   <meta name="twitter:card" content="{{ page.twitter_card.type | default: "summary" }}">
   {% if site.twitter_username %}<meta name="twitter:site" content="{{ site.twitter_username }}">{% endif %}
