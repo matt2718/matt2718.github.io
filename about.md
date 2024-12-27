@@ -4,12 +4,7 @@ title: "About"
 permalink: /about/
 ---
 
-I'm a physics PhD student at Yale. Before coming here, I did my undergrad at CU Boulder, and before
-that, I lived in Boise.
+I'm a physics PhD candidate at Yale. Before coming here, I did my undergrad at CU Boulder, and before that, I lived in Boise.
 
-My interests skew towards physics, but also encompass a wide variety of academic and non-academic
-topics (or so I tell myself).
+You can email me at matthew dot mitchell at yale dot edu.
 
-[My CV](/uploads/mitchell-cv.pdf)
-
-You can email me at matthew dot mitchell at yale dot edu
